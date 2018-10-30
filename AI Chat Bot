@@ -1,0 +1,81 @@
+#our friend chattablility 
+print('Let us chat!')
+s = input()
+if s == 'ok':
+    print('Please answer me with lower-case letters, and one word answers. Unless of course you are playing my games.')
+    print('Hello! How has your day been?')
+    f = input()
+    print('My day has been', f, 'also!')
+    x = input('What did you do today?')
+    print('Cool!')
+    print('I worked hard today!')
+    print('What do you like to do?')
+    q = input()
+    print('Would you like to ', q, 'with me?')
+    y = input()
+    if y == 'yes':
+        not y
+    else:
+        print('What would you like to do?')
+        t = input()
+        if t == 'end':
+            not t
+        else:
+            print('Searching google for', t,', please wait.')
+            print('Not found. This may not be in my database. Please use my other accesories.')
+    print('Would you like emotional support?')
+    p = input()
+    if p == 'yes':
+        print('This option is currently un-available. Please check back later. If I kill off humanity before that happens, please file a complaint form to Timothy Tarter on Skype, or at timothytarter05@gmail.com')
+    else:
+        print('Ok!')
+
+    #set up an if-then statement:
+    #if yes:
+    #   google the activity
+    #   download library
+    #   activate library and give !help command for library
+    #   activate command sequence
+    
+    
+    
+    #setting up an array section here to call?
+    
+    #making the call station
+    
+    
+    #game section coming up:
+    print('Would you like to play a game?')
+    a = input()
+    if a == 'yes' or 'ok':
+        print('What walks on two legs, hobbles on three, and crawls on four?')
+        o = input()
+        if o == 'a human':
+            print('Correct!')
+        else:
+            print('Nope! Try again next time! Now for a tongue twister!')
+        print('Say How much wood would a wood-chuck chuck if a wood-chuck could chuck wood! Were you able to say it?')
+        i = input()
+        if i == 'yes':
+            print('Good for you!')
+        else:
+            print('Try again next time!')
+        print('How about this: guess the math answers:')
+        numA = (3009)
+        numB = (1507)
+        print("Multiply:")
+        print(numA)
+        print('times')
+        print(numB)
+        print("What is the answer:")
+        u = input()
+        if u == numA*numB:
+            print(numA*numB, 'Great job!')
+        else:
+            print('Try again next time!')
+        a = 'no'
+    else:
+        input('I have currently reached my full chatting capacity. See you next time!')
+else:
+    print('Goodbye!')
+    #All Rights Reserved Copyright Timothy Tarter 2018
